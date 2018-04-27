@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+      <div class="col-sm-4 offset-sm-4">
+     <div class="form-group">
+         <label for="">Enter city name</label>
+         <input type="text" class="form-control" id="cityname">
+     </div>
+      <button class="btn btn-primary btn-md float-right" id="weatherBtn" disabled>Get weather info</button>
+      <div class="clearfix"></div>
+      <table class="table table-bordered table-striped weatherinfo-table d-none">
+          <tr>
+              <td>latitude</td>
+              <td class="weatherinfo-lat"></td>
+          </tr>
+          <tr>
+              <td>Longitude</td>
+              <td class="weatherinfo-long"></td>
+          </tr>
+          <tr>
+              <td>humidity</td>
+              <td class="weatherinfo-humi"></td>
+          </tr>
+          <tr>
+              <td>pressure</td>
+              <td class="weatherinfo-pres"></td>
+          </tr>
+      </table>
+          </div>
+    
+    
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="scripts/script.js"></script>
+    
+</body>
+</html>
